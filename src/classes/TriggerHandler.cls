@@ -28,9 +28,9 @@ public virtual class TriggerHandler {
   }
 
   // constructor
-  /* public TriggerHandler() {
-        this.setTriggerContext();
-    } */
+  public TriggerHandler() {
+    this.setTriggerContext();
+  }
   public TriggerHandler(String handlerName) {
     this.handlerName = handlerName;
     this.setTriggerContext();
